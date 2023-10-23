@@ -51,7 +51,9 @@ yurtlar_degisiklik.ipynb:
 
 	Yurdun veri seti üzerindeki bazı nümerik olmayan değerleri nümerik değere çevirmek için kullandım.
 	
+izmir_yurtlar_DF.xlsx:
 
+	Yurtların verilerinin bulunduğu excel dosyasıdır.
 
 
 VERİ SETİNİ OLUŞTURMAK İÇİN HANGİ PROGRAMLARDAN FAYDALANDIM
