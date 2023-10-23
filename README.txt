@@ -15,107 +15,107 @@ yurt_boylam: Yurdun google maps koordinatlarındaki boylam değerini verir.
 
 PROJE DOSYALARI
 
-yurtlar.py: Veri setini oluşturmak için kullandığım ana kod.
-yurtlar_lokasyon.py: Veri setinin içindeki yurtların koordinatlarını otomasyon kullanarak almaya çalıştığım kod.
+yurtlar.py: Veri setini oluşturmak için kullandığımız ana kod.
+yurtlar_lokasyon.py: Veri setinin içindeki yurtların koordinatlarını otomasyon kullanarak almaya çalıştığımız kod.
 	
-	Yaşadığım sorun: 
+	Yaşadığımız sorun: 
 
 	Yurdun koordinat değerlerine sadece ,google maps üzerinde yurdun lokasyonunu gösteren kırmızı 
-	raptiyenin göstgergesinin üzerine sağ tıklayarak erişebildim.Yani sitenin html kodu içerisinden bu
+	raptiyenin göstgergesinin üzerine sağ tıklayarak erişebildik.Yani sitenin html kodu içerisinden bu
 	değerlere erişmek imkansızdı.
 	
 	Çözüm:
 
-	Google maps üzerinde bir yurt ismi arattığımda, yukarıda belirttiğim kırmızı raptiye göstergesi, bilgisayar
-	ekranımın hep aynı noktasında beliriyordu,ben de selenium u "html içerisinden şu kod parçacğını bul ve click yap" 
+	Google maps üzerinde bir yurt ismi arattığımızda, yukarıda belirttiğimiz kırmızı raptiye göstergesi, bilgisayar
+	ekranının hep aynı noktasında beliriyordu,biz de selenium u "html içerisinden şu kod parçacğını bul ve click yap" 
 	olarak kullanmak yerine "mouse ile laptop ekranımın şu koordinatlarını x ve y olarak al, ve bu spesifik x,y koordinatına
-	sağ tık yap" şeklinde bir yaklaşım izledim.Çalıştı,yurtlarının yarısına yakınının koordinatını doğru bir şekilde aldım,
+	sağ tık yap" şeklinde bir yaklaşım izledik.Çalıştı,yurtların yarısına yakınının koordinatını doğru bir şekilde aldık,
 	fakat eğer gidilecek sıradaki yurt, o an ki yurttan çok uzaktaysa,google maps haritayı uzaklaştırıyor ve "ekranın
 	belirttiğim koordinatına bas" mantığı burada işe yaramıyordu.
 
-	Kullandığım farklı modüller:
+	Kullandığımız farklı modüller:
 		
 		pyautogui: Fare imlecimin ekran üzerindeki koordinatlarını görmek için kullandım.
 
-		pyperclip: Yaptığım son "kopyala" işleminin değerini alıp kodum üzerindeki bir değişkene
-		atamak için kullandım.
+		pyperclip: Yaptığımız son "kopyala" işleminin değerini alıp kod üzerindeki bir değişkene
+		atamak için kullandık.
 	
 
 yurtlar_degisiklik.ipynb: 
 
 	Yurdun veri seti üzerinde yer alan "yurt_ismi" adlı sütun değerleri üzerinden "yurt_ilce" adlı değişken ve değerlerini
-	oluşturmak için kullandım.
+	oluşturmak için kullandık.
 
 	Yurdun veri seti üzerinde yer alan "yurt_ismi" adlı sütun değerleri üzerinden "yurt_cinsiyet" adlı değişken ve 
-	değerlerini oluşturmak için kullandım.
+	değerlerini oluşturmak için kullandık.
 
-	Yurdun veri seti üzerindeki bazı nümerik olmayan değerleri nümerik değere çevirmek için kullandım.
+	Yurdun veri seti üzerindeki bazı nümerik olmayan değerleri nümerik değere çevirmek için kullandık.
 	
 izmir_yurtlar_DF.xlsx:
 
 	Yurtların verilerinin bulunduğu excel dosyasıdır.
 
 
-VERİ SETİNİ OLUŞTURMAK İÇİN HANGİ PROGRAMLARDAN FAYDALANDIM
+VERİ SETİNİ OLUŞTURMAK İÇİN HANGİ PROGRAMLARDAN FAYDALANDIK
 
 VISUAL STUDIO CODE:
 
-	Kullandığım yazılım dili: Python
-	En çok Kullandığım Modüller: Selenium,requests,beautifulsoup,pandas,time
+	Kullandığımız yazılım dili: Python
+	En çok Kullandığımız Modüller: Selenium,requests,beautifulsoup,pandas,time
 		
-		Selenium: Web scraping işlemi yapmak için kullandım.
+		Selenium: Web scraping işlemi yapmak için kullandık.
 		
-		Pandas: Oluşturduğum sözlük yapılarını pandas dataframe'ine çevirmek ve bu dataframe'i
-		excel veya csv dosyası olarak kaydetmek için kullandım.
+		Pandas: Oluşturduğumuz sözlük yapılarını pandas dataframe'ine çevirmek ve bu dataframe'i
+		excel veya csv dosyası olarak kaydetmek için kullandık.
 
 		Time: Bu modülü,selenium kullanırken oluşacak olası hataları önlemek ve programın düzgün çalışması 
-		için kullandım.
+		için kullandık.
 		
-		Yaşadığım sorun:
+		Yaşadığımız sorun:
 		
-		Sitenin html kodu içinden istediğim değerleri requests ve beautifulsoup ile alamadım,
-		alamama sebebim. #text olarak gözüken değerlerin verisini çekemiyor olmamdı,bu yüzden
-		selenium ile çekmeye karar verdim.	
+		Sitenin html kodu içinden istediğimiz değerleri requests ve beautifulsoup ile alamadık,
+		alamama sebebimiz #text olarak gözüken değerlerin verisini çekemiyor olmamızdı,bu yüzden
+		selenium ile çekmeye karar verdik.	
 
 
-		Not2: Requests ve beautifulsoup modüllerini yardımcı olarak tuttum,
-		selenium ile çözemediğim bir durum olursa kullanmak için,fakat hiç kullanmadım.
+		Not2: Requests ve beautifulsoup modüllerini yardımcı olarak tuttuk,
+		selenium ile çözemediğimiz bir durum olursa kullanmak için,fakat hiç kullanmadık.
 		
 
 MICROSOFT EXCEL:
 
-	VS Code üzerinde oluşturduğum veri setlerini daha ayrıntılı görüp incelemek
-	ve bazen de manuel olarak değişiklikler yapmak için kullandım.
+	VS Code üzerinde oluşturduğumuz veri setlerini daha ayrıntılı görüp incelemek
+	ve bazen de manuel olarak değişiklikler yapmak için kullandık.
 		
 FIREFOX:
 	
-	Verileri Firefox tarayıcı üzerinden çektim.
+	Verileri Firefox tarayıcı üzerinden çektik.
 
 Terminal: 
 	
-	Karşılaştığım çeşitli sorunlar için araştırma yaptığımda, birkaç modüle ihtiyacım
-	olduğunun bilgisine ulaştım ve bu modülleri kullanabilmek için terminalde install
-	işlemleri yaptım.
+	Karşılaştığımız çeşitli sorunlar için araştırma yaptığımızda, birkaç modüle ihtiyacımız
+	olduğunun bilgisine ulaştık ve bu modülleri kullanabilmek için terminalde install
+	işlemleri yaptık.
 
 ChatGPT:
 
 	Fare imlecimin laptop ekranım üzerindeki koordinat bilgilerini python ile hangi modülleri
-	kullanarak alacağım konusunda yardım aldım.
+	kullanarak alacağımız konusunda yardım aldık.
 	
-	Selenium webdriver'ının güncelleştirmesinin olup olmadığını,eğer varsa nasıl güncelleyeceğimi
-	öğrenmek için kullandım.
+	Selenium webdriver'ının güncelleştirmesinin olup olmadığını,eğer varsa nasıl güncelleyeceğimizi
+	öğrenmek için kullandık.
 
 
-ÖDEVİ YAPARKEN YAŞADIĞIM SORUNLAR:
+ÖDEVİ YAPARKEN YAŞADIĞIMIZ SORUNLAR:
 	
 	Yurtların fiyat bilgisi:
  
-	Önce internet üzerinden bu verileri bulmaya çalıştım fakat çok tek tük bilgiler ve ortalama ne
-	kadar olabileceği ile ilgili kesin olmayan fiyat bilgileri buldum. Arkadaşım ile bornovadaki birkaç öğrenci yurduna mail
+	Önce internet üzerinden bu verileri bulmaya çalıştık fakat çok tek tük bilgiler ve ortalama ne
+	kadar olabileceği ile ilgili kesin olmayan fiyat bilgileri bulduk. Bornovadaki birkaç öğrenci yurduna mail
 	attık.Fakat ya geri dönüş olmadı ya da bilgileri vermek istemediler.
 	
 
-KULLANDIĞIM KAYNAKLAR
+KULLANDIĞIMIZ KAYNAKLAR
 
 https://www.google.com/maps : Yurtların lokasyon değerlerini almak için kullandım.
 
@@ -128,6 +128,13 @@ için kullandım.
 https://www.yurtlarburada.com/izmir-ozel-ogrenci-yurtlari/: Site içerisinde yurtların kapasite değerleri yazdığından
 verisetime ekleyebileceğim önemli verileri içeriyor. (Henüz eklemedim)
 
+
+HAZIRLAYANLAR
+
+İRFAN EMRE BAYDAN
+SELENAY ÖZDEMİR
+
+DOKUZ EYLÜL ÜNİVERSİTESİ - BİLGİSAYAR BİLİMLERİ 3. SINIF ÖĞRENCİLERİ
 
 
 
