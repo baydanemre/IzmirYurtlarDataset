@@ -30,8 +30,8 @@ yurtlar_lokasyon.py: Veri setinin içindeki yurtların koordinatlarını otomasy
 	ekranımın hep aynı noktasında beliriyordu,ben de selenium u "html içerisinden şu kod parçacğını bul ve click yap" 
 	olarak kullanmak yerine "mouse ile laptop ekranımın şu koordinatlarını x ve y olarak al, ve bu spesifik x,y koordinatına
 	sağ tık yap" şeklinde bir yaklaşım izledim.Çalıştı,yurtlarının yarısına yakınının koordinatını doğru bir şekilde aldım,
-	fakat eğer gidilecek sıradaki yurt, o an ki yurttan çok uzaktaysa,google maps haritayı uzaklaştırıyor ve "ekranın belirttiğim
-	koordinatına bas" mantığı burada işe yaramıyordu.
+	fakat eğer gidilecek sıradaki yurt, o an ki yurttan çok uzaktaysa,google maps haritayı uzaklaştırıyor ve "ekranın
+	belirttiğim koordinatına bas" mantığı burada işe yaramıyordu.
 
 	Kullandığım farklı modüller:
 		
@@ -46,8 +46,8 @@ yurtlar_degisiklik.ipynb:
 	Yurdun veri seti üzerinde yer alan "yurt_ismi" adlı sütun değerleri üzerinden "yurt_ilce" adlı değişken ve değerlerini
 	oluşturmak için kullandım.
 
-	Yurdun veri seti üzerinde yer alan "yurt_ismi" adlı sütun değerleri üzerinden "yurt_cinsiyet" adlı değişken ve değerlerini
-	oluşturmak için kullandım.
+	Yurdun veri seti üzerinde yer alan "yurt_ismi" adlı sütun değerleri üzerinden "yurt_cinsiyet" adlı değişken ve 
+	değerlerini oluşturmak için kullandım.
 
 	Yurdun veri seti üzerindeki bazı nümerik olmayan değerleri nümerik değere çevirmek için kullandım.
 	
